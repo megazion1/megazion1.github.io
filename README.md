@@ -1,13 +1,10 @@
-## Welcome to GitHub Pages
+## M3g4z10n
 
-You can use the [editor on GitHub](https://github.com/megazion1/megazion1.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+P@y 4t3nt10n
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Y3S$1Rsky
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+Fuck JONA
 ```markdown
 Syntax highlighted code block
 
