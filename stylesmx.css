@@ -176,6 +176,9 @@ body{
   padding-top: 18px;
 }
 
+.footer a{
+  text-decoration: none;
+}
 
 @media screen and (max-width:900px){
     .card{
