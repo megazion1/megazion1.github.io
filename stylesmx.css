@@ -172,12 +172,14 @@ body{
   color: #ffd369;
   background: #222831;
 }
+/* FOOTER */
 .footer h6{
   padding-top: 18px;
 }
 
 .footer a{
   text-decoration: none;
+  color: #ffd369;
 }
 
 @media screen and (max-width:900px){
