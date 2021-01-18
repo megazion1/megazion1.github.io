@@ -1,0 +1,246 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+body{
+  background: #eeeeee;
+  width: 100%;
+  height: 300vh;
+}
+/*LANDING PAGE*/
+.landing-page{
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  position: relative;
+  overflow: hidden;
+}
+.landing-page::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(alitas.png) no-repeat;
+  background-size: cover;
+  opacity: .3;
+  animation: anim 25s linear infinite;
+}
+@keyframes anim {
+  50%{
+    transform: scale(2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.page-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+.page-content h1{
+  color: #ffd369;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.page-content p{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.page-content a{
+  display: inline-block;
+  text-decoration: none;
+  color: #ffd369;
+  border: 2px solid #ffd369;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  transition: 0.4s linear;
+}
+.page-content a:hover{
+  color: #222831;
+  background: #ffd369;
+}
+.text{
+  padding: 10px;
+  text-align: justify;
+}
+.text div{
+  margin-bottom: 6px;
+}
+
+.text h1{
+  text-align: center;
+  color: #222831;
+}
+
+/*MENU SECTION*/
+
+#menu{
+  width: 1000px;
+  height: 1200px;
+  display: block;
+  margin: auto;
+}
+
+.contacto h1{
+  text-align: center;
+  color: #222831;
+}
+
+/*CONTACT SECTION*/
+.contact-info{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    flex: 1;
+    max-width: 300px;
+    height: 140px;
+    background-color: #393e46;
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 32px;
+    color: #ffd369;
+    transition: .3s linear;
+}
+
+.card:hover .icon{
+    transform: scale(4);
+    opacity: 0;
+}
+
+.card-content h3,
+.card-content span{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    opacity: 0;
+}
+
+.card-content h3{
+    top: 20px;
+    text-transform: uppercase;
+    color: #ffd369;
+}
+
+.card-content span{
+    bottom: 20px;
+    color: #eeeeee;
+    font-weight: 500;
+}
+
+.card:hover h3{
+    opacity: 1;
+    top: 46px;
+    transition: .3s linear .3s;
+}
+
+.card:hover span{
+    opacity: 1;
+    bottom: 30px;
+    transition: .3s linear .3s;
+}
+
+.footer{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: #ffd369;
+  background: #222831;
+}
+.footer h6{
+  padding-top: 18px;
+}
+
+
+@media screen and (max-width:900px){
+    .card{
+        flex: 100%;
+        max-width: 800px;
+    }
+    .landing-page{
+      flex: 100%;
+      height: 60vh;
+      background: #000;
+      position: relative;
+      overflow: hidden;
+    }
+    .landing-page::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: url(alitas.png) no-repeat;
+      background-size: 900px;
+      opacity: .3;
+      animation: anim 25s linear infinite;
+    }
+    #menu{
+      width: 600px;
+      height: 800px;
+      display: block;
+      margin: auto;
+    }
+}
+
+@media screen and (max-width:500px){
+    .card{
+        flex: 100%;
+        max-width: 400px;
+    }
+    .landing-page{
+      flex: 100%;
+      height: 40vh;
+      background: #000;
+      position: relative;
+      overflow: hidden;
+    }
+    .landing-page::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: url(alitas.png) no-repeat;
+      background-size: 500px;
+      opacity: .3;
+      animation: anim 25s linear infinite;
+    }
+    #menu{
+      width: 400px;
+      height: 500px;
+      display: block;
+      margin: auto;
+    }
+
+    body{
+      height: 200vh;
+    }
+}
