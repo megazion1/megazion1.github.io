@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <clipPath id="clip-hexagon-red">
+      <rect width="1080" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="hexagon-red" clip-path="url(#clip-hexagon-red)">
+    <path id="Polígono_1" data-name="Polígono 1" d="M750.761,0a50,50,0,0,1,43.3,25l231,400a50,50,0,0,1,0,50.01l-231,400a50,50,0,0,1-43.3,25H288.739a50,50,0,0,1-43.3-25l-231-400a50,50,0,0,1,0-50.01l231-400a50,50,0,0,1,43.3-25Z" transform="translate(20.5 90)" fill="#da0037"/>
+  </g>
+</svg>
